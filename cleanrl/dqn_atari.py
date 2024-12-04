@@ -56,7 +56,7 @@ class Args:
     """the learning rate of the optimizer"""
     num_envs: int = 1
     """the number of parallel game environments"""
-    buffer_size: int = 700000
+    buffer_size: int = 800000
     """the replay memory buffer size"""
     gamma: float = 0.99
     """the discount factor gamma"""
